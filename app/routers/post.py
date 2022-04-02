@@ -1,4 +1,3 @@
-from tkinter import N
 from fastapi import Depends, status, HTTPException, Response, APIRouter
 from typing import List, Optional
 from .. import models, oauth2, database, schemas
